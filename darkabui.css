@@ -1,0 +1,198 @@
+/*
+    -----DarkAB UI-----
+    Website: http://ui.darkab.eu/
+    Instagram: @darkab.eu
+    Twitter: @darkabeu
+    Support the DarkAB UI creators: --patreon link--
+
+    -----How to add DarkAB UI to your website-----
+    Add this link into <head> tag in your html document: <link rel="stylesheet" href="darkabui.css">
+
+    -----How to use DarkAB UI on your website-----
+    Add a class to your html tags to apply the DarkAB UI style: <p class="black">Text<p>
+
+    -----Patch Notes-----
+    DarkAB UI v1.0:
+    - Added TypeFace Settings
+    - Added Dark Mode
+*/
+/*-----------------------------------------------------------------------------------------------------*/
+html {
+    margin: 0;
+    padding: 0;
+}
+/*
+    Dark Mode
+*/
+.darkmode {
+    background-color: #222222;
+    color: #dddddd;
+}
+/*
+    Typeface settings
+*/
+html * {
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+h1 {
+    font-size: 48px;
+    display: block;
+}
+h2 {
+    font-size: 40px;
+}
+h3 {
+    font-size: 32px;
+}
+h4 {
+    font-size: 24px;
+}
+h5 {
+    font-size: 22px;
+}
+h6 {
+    font-size: 20px;
+}
+p {
+    font-size: 16px;
+}
+a {
+    color: rgba(0, 161, 214);
+    text-decoration: none !important;
+}
+a:link {
+    color: inherit;
+}
+.light {
+    font-weight: 300;
+}
+.normal {
+    font-weight: 400;
+}
+.medium {
+    font-weight: 500;
+}
+.bold {
+    font-weight: 700;
+}
+.black {
+    font-weight: 900;
+}
+.center {
+    text-align: center;
+}
+/*
+    Images
+*/
+.img {
+    margin: 20px;
+}
+.img-border {
+    border: black;
+    border-radius: 1px;
+}
+/*
+    Forms
+*/
+input {
+    height: 15px;
+}
+button {
+    background-color: white;
+    border-radius: 3px;
+    border-color: black;
+    color: black;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+/*
+    Navigation Bar
+*/
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #333333;
+    height: 50px;
+    margin-bottom: 50px;
+    display: block;
+}
+.navbar-logo {
+    width: 20px;
+    margin: 15px;
+    display: block;
+    float: left;
+}
+.navbar-name {
+    font-size: 20px;
+    margin-top: 15px;
+    color: white !important;
+    text-decoration: none;
+    display: block;
+    float: left;
+}
+.navbar-items {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.navbar-item {
+    margin-top: 17px;
+    margin-left: 20px;
+    font-size: 17px;
+    display: block;
+    color: #dddddd;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+}
+/*
+    Center elements
+*/
+.horizontal-center {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.complete-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+/*
+    Move elements
+*/
+.left {
+    display: block;
+    float: left;
+}
+.right {
+    display: block;
+    float: right;
+}
