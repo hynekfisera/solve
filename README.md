@@ -32,12 +32,12 @@ Download solve.css file and link it with your HTML document in the ```<head>``` 
     <th>Need</th>
   </tr>
   <tr>
-    <td>Any/td>
+    <td>Any</td>
     <td>Classes</td>
     <td>For</td>
   </tr>
   <tr>
-    <td>Styling/td>
+    <td>Styling</td>
     <td>The</td>
     <td>Tables</td>
   </tr>
