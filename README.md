@@ -28,7 +28,7 @@ Download solve.css file and link it with your HTML document in the ```<head>``` 
 <table>
   <tr>
     <th>You/th>
-    <th>Don't</th>
+    <th>Dont</th>
     <th>Need</th>
   </tr>
   <tr>
