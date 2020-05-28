@@ -57,5 +57,22 @@ Download solve.css file and link it with your HTML document in the ```<head>``` 
 <button class="btn-secondary">Use btn-secondary class for Primary Button!</button>
 ```
 
+#### Navbar
+```HTML
+<header class="navbar">
+ <a href="#">
+  <h5>Logo</h5>
+ </a>
+ <nav>
+  <ul class="navbar-links">
+    <li><a href="#">Menu Item 1</a></li>
+    <li><a href="#">Menu Item 2</a></li>
+    <li><a href="#">Menu Item 3</a></li>
+  </ul>
+ </nav>
+ <a href="#"><button class="btn-primary">CTA Button</button></a>
+</header>
+```
+
 ## View Solve
 View Solve [here](https://darkab.eu/projects/solve.html)
