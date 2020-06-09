@@ -84,6 +84,7 @@ a:hover {
 
 button {
     cursor: pointer;
+    outline: none !important;
 }
 
 .btn-primary {
